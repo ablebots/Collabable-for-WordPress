@@ -131,7 +131,7 @@ function options_page_content() {
       <div class="form_item">
         <label>Enabled?</label>
         <input type="checkbox" name="<?php print $enable_modal; ?>" value="modal"<?php checked( get_option($enable_modal) ); ?> /> Show form in popup window
-        <small>Will not appear on pages displaying the widget form</small>
+        <small><br />Will not appear on pages displaying the widget form</small>
       </div><br/>
 
       <div class="form_item">
